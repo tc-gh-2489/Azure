@@ -3,7 +3,7 @@
 # Unmount the disk /dev/sdc1.
 sudo umount /dev/sdc1
 
-# Resize partition 1 to be 128GB.
+# Resize partition 1 to be 200GB.
 # Read from standard input provide the options we want.
 sudo parted /dev/sdc <<EOF
 resizepart
